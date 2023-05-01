@@ -19,6 +19,8 @@ body {
   right: 0;
   margin: auto;
   z-index: 2;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
 }
 a {
   text-decoration: none;
@@ -29,13 +31,16 @@ a:hover {
 .selfpic {
   width: 200px;
   height: 200px;
+  size-adjust: auto;
   position: relative;
   top: 60px;
   border-radius: 20px;
+  border: solid blue thick;
 }
 .piccap {
   font-size: smaller;
   text-align: center;
+  border: none;
 }
 .navi {
   border: solid blue thick;
@@ -53,4 +58,28 @@ a:hover {
   top: 200px;
   list-style: none;
   font-size: auto;
+}
+.codepen {
+  width: 200px;
+}
+.github {
+  width: 100px;
+}
+.hobbylist {
+  list-style-type: square;
+}
+.header2 {
+  color: blue;
+}
+.button {
+  background-color: pink;
+  position: fixed;
+  bottom: 25px;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.button:hover {
+  background-color: rgb(244, 138, 156);
 }
